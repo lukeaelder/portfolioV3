@@ -69,7 +69,7 @@ const NavMenu = () => {
             >
                 <div className='nav-rounded absolute top-[-10%] left-0 z-[-1] h-[120%] w-[80%] -translate-x-1/2 rounded-[100%_100%] bg-neutral-800 will-change-transform [-webkit-perspective:1000]'></div>
                 <div>
-                    <NavMenuLine title={'Navigation'} open={open} />
+                    <NavMenuLine title={'Navigation'} />
                     <div>
                         <NavMenuLink
                             title={'About'}
@@ -92,7 +92,7 @@ const NavMenu = () => {
                     </div>
                 </div>
                 <div>
-                    <NavMenuLine title={'Links'} open={open} />
+                    <NavMenuLine title={'Links'} />
                     <div className='flex px-[clamp(1.25rem,3vw,2.5rem)] text-base'>
                         <NavMenuSocial
                             title={'GitHub'}

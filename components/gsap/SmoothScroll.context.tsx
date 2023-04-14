@@ -50,10 +50,8 @@ const SmoothScrollProvider = ({ children }: { children: React.ReactNode }) => {
         const handleResize = () => {
             if (window.innerWidth >= 1024 && !isLarge) {
                 setIsLarge(true);
-                console.log('isLarge: ', true);
             } else if (window.innerWidth < 1024 && isLarge) {
                 setIsLarge(false);
-                console.log('isLarge: ', false);
             }
         };
 

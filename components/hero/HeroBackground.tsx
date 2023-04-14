@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { gsap, ScrollTrigger } from '../gsap/gsap';
 import useIsomorphicLayoutEffect from '../gsap/UseIsomorphicLayoutEffect';
 import { Gradient } from './Gradient';

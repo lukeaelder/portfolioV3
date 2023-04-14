@@ -1,6 +1,4 @@
-'use client';
-
-const NavMenuLine = ({ title, open }: { title: string; open: boolean }) => {
+const NavMenuLine = ({ title }: { title: string; }) => {
     return (
         <div className='px-[clamp(1.25rem,3vw,2.5rem)]'>
             <span className='text-base text-neutral-500'>{title}</span>
