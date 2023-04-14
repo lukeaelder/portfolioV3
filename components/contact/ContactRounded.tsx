@@ -29,7 +29,7 @@ const ContactRounded = () => {
     return (
         <div
             ref={el}
-            className='pointer-events-none absolute top-0 left-[-10%] z-10 h-[800px] w-[120%] -translate-y-1/2'
+            className='pointer-events-none absolute top-0 left-[-10%] z-10 h-[500px] md:h-[600px] lg:h-[800px] w-[120%] -translate-y-1/2'
         >
             <div className='contact-round h-full w-full rounded-[100%_100%] bg-[#F0F0F0]'></div>
         </div>

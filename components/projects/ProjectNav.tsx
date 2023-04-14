@@ -44,6 +44,7 @@ const ProjectNav = ({
                         onClick={() =>
                             scroll.scrollTo(scroll.offset(`#project-${i}`, '200px'), true)
                         }
+                        aria-label={`Scroll to project ${i + 1}`}
                     >
                         <div
                             className={`h-full w-full origin-top transition-colors duration-1000

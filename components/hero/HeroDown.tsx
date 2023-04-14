@@ -105,6 +105,7 @@ const HeroDown = () => {
             ref={el}
             data-speed='0.8'
             onClick={() => scroll.scrollTo(`#about`, true)}
+            aria-label='Scroll down'
         >
             <div className='hero-down pointer-events-none absolute top-0 h-3 w-3 rounded-full bg-neutral-100'></div>
         </button>

@@ -88,6 +88,7 @@ const NavMenuBtn = ({ open, toggleMenu }: { open: boolean; toggleMenu: () => voi
                     className={`mag-slow h-20 w-20 rounded-full shadow-lg shadow-neutral-900/10 transition-colors group-hover:bg-indigo-500 ${
                         open ? 'bg-indigo-500' : 'bg-white'
                     }`}
+                    aria-label='Menu'
                 ></button>
                 <div className='mag-fast pointer-events-none absolute top-1/2 left-1/2 flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center'>
                     <div className='line1 absolute h-[6px] w-8 -translate-y-[6px] translate-x-2 scale-x-0 rounded-full bg-neutral-800'></div>

@@ -79,7 +79,7 @@ const Projects = () => {
             });
             for (let i = 0; i < projectCount; i++) {
                 ScrollTrigger.create({
-                    trigger: '#projects',
+                    trigger: el.current,
                     start: `${i * projectHeight}px top`,
                     end: `+=${projectHeight}px top`,
                     onEnter: () => {

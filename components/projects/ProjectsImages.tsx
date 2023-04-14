@@ -67,7 +67,7 @@ const ProjectImage = ({
                 className='project-image h-full w-full scale-110 object-cover'
                 onError={() => setImgSrc(fallbackImgSrc)}
                 fill
-                priority
+                sizes='(min-width: 1024px) 100vw, 100vw'
             ></Image>
         </div>
     );

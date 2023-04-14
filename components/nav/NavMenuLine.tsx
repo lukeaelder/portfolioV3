@@ -3,8 +3,8 @@
 const NavMenuLine = ({ title, open }: { title: string; open: boolean }) => {
     return (
         <div className='px-[clamp(1.25rem,3vw,2.5rem)]'>
-            <span className='text-base text-neutral-600'>{title}</span>
-            <div className='mt-6 mb-4 h-[1px] w-full bg-neutral-700'></div>
+            <span className='text-base text-neutral-500'>{title}</span>
+            <div className='mt-6 mb-4 h-[1px] w-full bg-neutral-600'></div>
         </div>
     );
 };

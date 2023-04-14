@@ -5,7 +5,6 @@ import { Antonio } from 'next/font/google';
 const font = Antonio({
     subsets: ['latin'],
     variable: '--font-variable',
-    display: 'swap',
 });
 
 export const metadata = {

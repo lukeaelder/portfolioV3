@@ -206,7 +206,6 @@ const ContactBackground = () => {
         <div className='contact-bg absolute top-0 left-0 z-[-10] h-full w-full overflow-hidden bg-[#262626]'>
             <div className='h-full w-full' data-speed='0.4'>
                 <Canvas
-                    dpr={[1, 1]}
                     orthographic
                     camera={{ position: [0, 0, 10], zoom: 100 }}
                     flat
