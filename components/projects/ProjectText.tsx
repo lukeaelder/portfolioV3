@@ -55,28 +55,28 @@ const ProjectText = ({
                     rotateZ: 0,
                     duration: 1.2,
                     ease: 'power3.out',
-                    delay: cur.cur > cur.prev ? 0.1 : 0.2,
+                    delay: cur.cur > cur.prev ? 0.2 : 0.3,
                 });
                 gsap.to('.project-description', {
                     y: '0%',
                     rotateZ: 0,
                     duration: 1.2,
                     ease: 'power3.out',
-                    delay: cur.cur > cur.prev ? 0.25 : 0.3,
+                    delay: cur.cur > cur.prev ? 0.35 : 0.4,
                 });
                 gsap.to('.project-stack', {
                     y: '0%',
                     rotateZ: 0,
                     duration: 1.2,
                     ease: 'power3.out',
-                    delay: cur.cur > cur.prev ? 0.4 : 0.2,
+                    delay: cur.cur > cur.prev ? 0.4 : 0.3,
                 });
                 gsap.to('.project-links', {
                     y: '0%',
                     rotateZ: 0,
                     duration: 1.2,
                     ease: 'power3.out',
-                    delay: cur.cur > cur.prev ? 0.4 : 0.1,
+                    delay: cur.cur > cur.prev ? 0.4 : 0.2,
                 });
             } else {
                 gsap.to('.project-title, .project-description, .project-stack, .project-links', {
@@ -108,7 +108,7 @@ const ProjectText = ({
                     rotateZ: 0,
                     duration: 1.2,
                     ease: 'power3.out',
-                    delay: cur.cur > cur.prev ? 0.1 : 0.2,
+                    delay: cur.cur > cur.prev ? 0.2 : 0.3,
                 });
             } else {
                 gsap.to('.project-title', {
